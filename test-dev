@@ -1,7 +1,0 @@
-
-def test(nombre):
-    return f"Esto es una prueba de {nombre}"
-    
-    
-nombre = "Andres"
-print(test(nombre))
