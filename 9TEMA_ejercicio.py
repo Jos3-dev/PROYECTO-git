@@ -6,7 +6,24 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
         self.telefono = telefono
+        
+    def setNombre(self, nombre):
+        self.nombre = nombre
 
+    def setEdad(self, edad):
+        self.edad = edad
+
+    def setTelefono(self, telefono):
+        self.telefono = telefono
+
+    def getNombre(self):
+        return self.nombre
+
+    def getEdad(self):
+        return self.edad
+
+    def getTelefono(self):
+        return self.telefono
 
 class Cliente(Persona):
 
